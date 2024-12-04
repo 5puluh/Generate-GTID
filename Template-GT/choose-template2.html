@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choose Your Template</title>
+  <link rel="stylesheet" href="styles2.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/5.7.1/tinymce.min.js" referrerpolicy="origin"></script>
+  <script>
+    tinymce.init({
+      selector: '#mytextarea'
+    });
+  </script>
+</head>
+
+<body>
+  <!-- Choose Template Section -->
+  <div class="choose-template-container">
+    <h1>Choose Your Template</h1>
+    <div class="template-grid">
+      <div class="template-box">
+        <img src="template/template1.jpeg" alt="Template 1">
+        <p>Template 1</p>
+      </div>
+      <div class="template-box">
+        <img src="template/template2.jpeg" alt="Template 2">
+        <p>Template 2</p>
+      </div>
+      <div class="template-box">
+        <img src="template/template3.jpeg" alt="Template 3">
+        <p>Template 3</p>
+      </div>
+      <div class="template-box">
+        <img src="https://via.placeholder.com/200" alt="Template 4">
+        <p>Template 4</p>
+      </div>
+      <div class="template-box">
+        <img src="template/Template5.jpeg" alt="Template 5">
+        <p>Template 5</p>
+      </div>
+    </div>
+    <button class="generate-button">Generate</button>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 style="text-align: center;" class="employeeheader">Employee Information Form</h2>
+        <div id="formContainer"></div>
+
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top-btn">Back to Top</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

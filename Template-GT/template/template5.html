@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Security Tips</title>
+    <!-- Css -->
+    <style type="text/css"></style>
+  </head>
+  <!-- Css Internal -->
+  <style>
+    body {
+      padding: 0;
+      margin: 0 !important;
+      background-color: #f3f2ee;
+      -ms-text-size-adjust: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    html {
+      margin: 0 50px;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    img {
+      width: 100%;
+      padding: 0 !important;
+      margin: 0 !important;
+      outline: 0 !important;
+    }
+
+    .background-1 {
+      background-color: #4f2d7f;
+      width: 100%;
+      height: 50vh;
+      padding: 0 50px;
+    }
+
+    .background-main {
+      background-color: #ffffff;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 600px;
+      padding: 0 50px;
+    }
+
+    .heading-main {
+      color: #4f2d7f;
+      font-size: 16px;
+      line-height: 25px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .text-main {
+      color: #000000;
+      font-size: 16px;
+      line-height: 25px;
+      /* background-color: green; */
+      margin-top: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .main-table {
+      margin-top: 50px;
+      /* background-color: red; */
+    }
+
+    .table-content tr,
+    th {
+      border: 1.3px solid #000000 !important;
+      padding: 10px 0;
+    }
+
+    .table-content .cont {
+      border: 1.3px solid #000000 !important;
+      padding: 5px 0;
+      /* background-color: red; */
+      text-align: center;
+    }
+
+    .text-after {
+      margin-top: 30px;
+    }
+
+    .text-after,
+    .text-after-table .text-before {
+      font-size: 16px;
+      color: #000000;
+      line-height: 24px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .text-after-table a {
+      text-decoration: none;
+      color: black;
+      text-decoration: underline;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    hr.line {
+      border: 1px solid #f3f2ee;
+    }
+
+    h3 {
+      color: #75787b;
+      font-size: 16px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 17px;
+    }
+
+    .site-text {
+      color: #4f2d7f;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .site-right {
+      color: #4f2d7f;
+      font-size: 14px;
+      line-height: 16px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .site-parag {
+      font-size: 12px;
+      color: #4f2d7f;
+      line-height: 1px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .site-parag a {
+      text-decoration: none;
+    }
+  </style>
+  <body>
+    <!-- background-header -->
+    
+
+    <!-- Start full width table -->
+    <center>
+      <table
+        class="background-main"
+        width="100%"
+        cellpading="0"
+        cellspacing="0"
+        border="0"
+        bgcolor="red"
+        style="border-collapse: collapse;"
+      >
+        <tr>
+          <td align="center">
+            <table
+              width="600"
+              border="0"
+              cellspacing="0"
+              cellpadding="0"
+              style="
+                table-layout: fixed;
+                width: 600px;
+                border-collapse: collapse;
+              "
+            >
+              <tr>
+                <td
+                  height="5"
+                  style="
+                    height: 5px;
+                    padding: 0 45px;
+                    border-collapse: collapse;
+                    margin-top: 10px;
+                    background-color: #ffffff;
+                  "
+                ></td>
+              </tr>
+              <tr>
+                <td
+                  height="5"
+                  style="height: 5px; width: 100%; padding: 0 20px"
+                ></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+
+        <!-- Start logo -->
+        <tr>
+          <td style="padding: 15px 0 5px">
+            <table width="100%">
+              <tr>
+                <td class="two-columns">
+                  <table
+                    class="columns"
+                    align="left"
+                    valign="center"
+                    style="margin-top: 20px"
+                  >
+                    <tr>
+                      <td style="padding: 0 5px">
+                        <a href=""
+                          ><img
+                            src="https://mcusercontent.com/c136cece561b203fee2acf420/images/e010753d-c172-4aa8-b284-b6df39331a10.jpg"
+                            alt="Grant Thornton"
+                        /></a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- End logo -->
+
+        <!-- Start Header -->
+        <tr>
+          <td style="padding: 0 45px" align="left" valign="center">
+            <br /><br />
+            <!-- <p class="heading-main">Dear Bu Hanny, <br /></p> -->
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="">
+              <img id="employeePhotoDisplay"
+                src="https://mcusercontent.com/c136cece561b203fee2acf420/images/de9a0a59-d0f1-a535-fc1c-540bce7d64ef.jpg"
+                alt="Laptop Security Practice"/></a>
+            
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 0 45px">
+            <p class="text-main">
+              <b><span id="employeeName"></b>
+              <br><br />
+              <span id="employeeDescription">
+              <br><br />
+              Thank you for your continued commitment to maintaining a secure work environment.
+              <br><br />
+            
+            </p>
+          </td>
+        </tr>
+        <tr>
+         
+          <tr>
+            <td style="padding: 0 20px">
+              <center><p class="heading-main">IT Security Team</p></center>
+              <center style="margin-top: -20px; font-size: 12px;">Information Technology - Support Service Line</center>
+              <center><a href="#" style="font-size: 12px;">support.it@id.gt.com</a></center>
+            </td>
+          </tr>
+
+        </tr>
+        <tr>
+          <td style="padding: 0 45px">
+            <!-- <h3>SINCERELY,</h3> -->
+          </td>
+        </tr>
+        <tr>
+          <td align="center" valign="top">
+            <table
+              width="100%"
+              border="0"
+              cellspacing="0"
+              cellpadding="0"
+              align="center"
+              style="width: 600px"
+            >
+              <tr>
+                <td valign="top">
+                  <table
+                    width="250"
+                    border="0"
+                    cellspacing="0"
+                    cellpadding="0"
+                    align="left"
+                    style="width: 250px"
+                  >
+                    <tr>
+                      <td align="left" valign="top">
+                        <table
+                          width="250"
+                          border="0"
+                          cellspacing="0"
+                          cellpadding="0"
+                          align="left"
+                          style="width: 250px"
+                        >
+                          <tr>
+                            <td
+                              align="left"
+                              valign="top"
+                              style="
+                                font-family: Arial, sans-serif;
+                                font-size: 16px;
+                                line-height: 24px;
+                                color: #4f2d7f;
+                                font-weight: bold;
+                              "
+                            >
+                              <!-- Marketing and Communications -->
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                  <table
+                    width="245"
+                    cellspacing="0"
+                    cellpadding="0"
+                    align="right"
+                    style="width: 245px; margin-right: -30px"
+                  >
+                    <tr>
+                      <td height="4" style="font-size: 1px; line-height: 1px">
+                        &nbsp;
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        align="left"
+                        valign="top"
+                        style="
+                          font-family: Arial, sans-serif;
+                          font-size: 14px;
+                          line-height: 16px;
+                          color: #4f2d7f;
+                          font-weight: bold;
+                        "
+                      >
+                        <!-- T +62 (21) 5795-2700 -->
+                      </td>
+                    </tr>
+                    <tr>
+                      <td
+                        align="left"
+                        valign="top"
+                        style="
+                          font-family: Arial, sans-serif;
+                          font-size: 12px;
+                          line-height: 16px;
+                          color: #4f2d7f;
+                          font-weight: bold;
+                        "
+                      >
+                        <!-- support.marketing@id.gt.com -->
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height="13" style="font-size: 1px; line-height: 1px">
+                        &nbsp;
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <!-- end header -->
+      </table>
+    </center>
+
+    <!-- [footer] -->
+    <table
+      width="600"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      align="center"
+      bgcolor="#4f2d7f"
+      style="border-collapse: collapse"
+    >
+      <tr>
+        <td
+          valign="top"
+          align="center"
+          style="background-color: #4f2d7f; border-collapse: collapse"
+        >
+          <table
+            width="600"
+            border="0"
+            cellspacing="0"
+            cellpadding="5"
+            style="table-layout: fixed; width: 600px; border-collapse: collapse"
+          >
+            <tr>
+              <td style="padding: 0 45px; border-collapse: collapse"></td>
+            </tr>
+            <tr>
+              <td
+                height="40"
+                style="height: 30px; border-collapse: collapse"
+              ></td>
+            </tr>
+            <tr>
+              <td
+                align="left"
+                valign="top"
+                style="
+                  font-size: 12px;
+                  font-family: Arial, Helvetica, sans-serif;
+                  line-height: 16px;
+                  color: white !important;
+                  background-color: #4f2d7f;
+                  border-collapse: collapse;
+                "
+              >
+              <center>&copy; <span style="color: #ffffff;">Grant Thornton Indonesia. All rights reserved.<br />
+                &lsquo;Grant Thornton&rsquo; refers to the brand under which the
+                Grant Thornton member firms provide assurance, tax and advisory
+                services to their clients and/or refers to one or more member
+                firms, as the context requires. Grant Thornton International Ltd
+                (GTIL) and the member firms are not a worldwide partnership.
+                GTIL and each member firm is a separate legal entity. Services
+                are delivered by the member firms. GTIL does not provide
+                services to clients. GTIL and its member firms are not agents
+                of, and do not obligate, one another and are not liable for one
+                another&rsquo;s acts or omissions.</span></center>
+              </td>
+            </tr>
+            <tr>
+              <td
+                height="28"
+                style="height: 28px; border-collapse: collapse"
+              ></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+<script>
+  // Retrieve data from localStorage and display it on the page
+  document.getElementById('employeeName').textContent = localStorage.getItem('employeeName5');
+  //document.getElementById('employeeID').textContent = localStorage.getItem('employeeID');
+  document.getElementById('employeeDescription').innerHTML = localStorage.getItem('employeeDescription5');
+  var employeePhoto = null
+  employeePhoto =localStorage.getItem('employeePhoto5');
+  if (!(employeePhoto==null || employeePhoto=="" || employeePhoto==undefined)) {
+    document.getElementById('employeePhotoDisplay').src = employeePhoto;
+  }
+</script>

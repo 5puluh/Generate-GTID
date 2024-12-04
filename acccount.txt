@@ -1,0 +1,16 @@
+Display name:Grant Thornton Indonesia
+Application (client) ID:25ee7d23-6fa8-4459-a4b0-14edccf3ed65
+Object ID:4f5ac2f0-aea0-4606-b6bf-da58e4e9bb7b
+Directory (tenant) ID:6ffb4c02-e89b-44af-ae03-6e1ac42c83d7
+Supported account types:Personal Microsoft account users
+Client credentials:Add a certificate or secret
+login-sso
+Value:D2S8Q~Aa5DnGy5_L1RhdsPYd-CUkktiUgIft2aD3
+Secret-ID:f7892053-5076-4b8d-93d7-fe75c9546374
+
+Redirect URIs:1 web, 0 spa, 0 public client
+Application ID URI:Add an Application ID URI
+
+Authorization Endpoint: https://login.microsoftonline.com/common/oauth2/v2.0/authorize
+Token Endpoint: https://login.microsoftonline.com/common/oauth2/v2.0/token
+Scopes: Define the scopes for what you want to access (e.g., openid, profile, email, User.Read).
